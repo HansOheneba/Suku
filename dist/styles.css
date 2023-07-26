@@ -1019,6 +1019,10 @@ html {
   background-color: rgb(30 58 138 / 0.1);
 }
 
+.bg-blue-900\/20 {
+  background-color: rgb(30 58 138 / 0.2);
+}
+
 .p-10 {
   padding: 2.5rem;
 }
