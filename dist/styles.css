@@ -1147,6 +1147,14 @@ html {
   padding-right: 0.75rem;
 }
 
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pt-40 {
+  padding-top: 10rem;
+}
+
 .text-8xl {
   font-size: 6rem;
   line-height: 1;
