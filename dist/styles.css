@@ -998,6 +998,27 @@ html {
   background-color: rgb(253 224 71 / var(--tw-bg-opacity));
 }
 
+.bg-slate-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
+.bg-slate-500\/25 {
+  background-color: rgb(100 116 139 / 0.25);
+}
+
+.bg-slate-500\/20 {
+  background-color: rgb(100 116 139 / 0.2);
+}
+
+.bg-slate-500\/10 {
+  background-color: rgb(100 116 139 / 0.1);
+}
+
+.bg-blue-900\/10 {
+  background-color: rgb(30 58 138 / 0.1);
+}
+
 .p-10 {
   padding: 2.5rem;
 }
