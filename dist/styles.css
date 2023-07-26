@@ -1035,6 +1035,10 @@ html {
   background-color: rgb(12 10 9 / 0.2);
 }
 
+.bg-stone-950\/25 {
+  background-color: rgb(12 10 9 / 0.25);
+}
+
 .p-10 {
   padding: 2.5rem;
 }
