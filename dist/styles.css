@@ -745,6 +745,10 @@ html {
   height: 3.5rem;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
