@@ -23,7 +23,7 @@
   </head>
   <body class="box-border">
     
-      <div class="header h-28 w-full overflow-hidden z-10 fixed bg-transparent backdrop-blur">
+      <div class="header h-16 lg:h-28  w-full overflow-hidden z-10 fixed bg-transparent backdrop-blur">
         <div class="flex justify-between items-center font-poppins"> <a href="#" class="flex items-center">
           <div id="logo">
             <img src="img/logo.png" class="" alt="SUKU_Logo">
@@ -45,7 +45,7 @@
           <a href="https://www.linkedin.com/company/suku-technologies/" target="_blank" class="fa-brands fa-linkedin hover:text-blue-700 transition ease-in duration-150"></a>
           <a href="https://www.instagram.com/sukutechnologies_" target="_blank" class="fa-brands fa-instagram hover:text-pink-600 transition ease-in duration-150"></a>
         </div>
-        <a href="contact.html" class="fa-solid fa-magnifying-glass text-white pl-4 hover:text-blue-400 transition ease-in duration-150"></a>
+        <a href="contact.html" class="fa-solid fa-magnifying-glass text-white pl-4 hover:text-blue-400 transition ease-in duration-150 mr-6"></a>
         <div class="icon-container relative inline-block z-20 lg:hidden">
           <div id="menuicon">
             <div class="bar bar1"></div>
@@ -53,7 +53,7 @@
           </div>
         </div></div>
        
-        <div class="clear-both lg:hidden">
+        <div class="clear-both">
           <ul class="menu relative block list-none">
             <li class="menu-item "><a class="block relative text-white no-underline text-xl w-full focus:outline-none" href="#">Home</a>
             </li>
@@ -72,18 +72,7 @@
           </ul>
         </div>
       </div>
-      <header style=" background-image: url(img/Pattern.png); background-size: cover; background-color: #011326; height:100vh ;" class="min-h-screen"><div class="pl-20 text-white">
-        <div id="dropdownMenu" class="hidden lg:hidden backdrop-blur-sm text-white float-right border w-screen">
-          <ul class="flex flex-col space-y-4 items-center mt-4 ">
-            <li><a href="gallery.html" class="text-md font-medium  hover:text-blue-400 transition ease-in duration-150">Home</a></li>
-            <li><a href="#products" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Solutions</a></li>
-            <li><a href="gallery.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">About</a></li>
-            <li><a href="gallery.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Initiatives</a></li>
-            <li><a href="gallery.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Careers</a></li>
-            <li><a href="gallery.html" class="text-md font-medium border-b-2 w-full border-gray-500 hover:text-blue-400 transition ease-in duration-150">Blog</a></li>
-            <li><a href="contact.html" class="text-md font-medium  hover:text-blue-400 transition ease-in duration-150">Contact</a></li>
-          </ul>
-        </div>
+      <main style=" background-image: url(img/Pattern.png); background-size: cover; background-color: #011326; height:100vh ;" class="min-h-screen"><div class="pl-20 text-white">
         <h1 class=" lg:text-8xl md:text-8xl font-bold"><span class="lg:text-9xl md:text-9xl" style="color: #288BDC;">SUKU <br></span> Technologies</h1><br><br>
         <p class="font-normal text-xl">Step Into the Realm of Innovation, <br>The future is here</p>
         <br>
@@ -92,7 +81,7 @@
           Find Out
         </button>
        </a>
-      </div> </header>
+      </div> </main>
  
     </header>
  <section>
@@ -104,11 +93,14 @@
     (function () {
       const header = document.querySelector('.header');
       const icon = document.querySelector('.icon-container');
+  
       icon.onclick = function () {
         header.classList.toggle('menu-open');
-      }
-    }());
+       };
+    })();
+    
   </script>
+  
   
   
   </body>
