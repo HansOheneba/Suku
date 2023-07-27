@@ -1350,6 +1350,10 @@ html {
 }
 
 @media (min-width: 1024px) {
+  .lg\:ml-20 {
+    margin-left: 5rem;
+  }
+
   .lg\:flex {
     display: flex;
   }
@@ -1398,6 +1402,14 @@ html {
 
   .lg\:pt-\[120px\] {
     padding-top: 120px;
+  }
+
+  .lg\:pl-20 {
+    padding-left: 5rem;
+  }
+
+  .lg\:text-left {
+    text-align: left;
   }
 
   .lg\:text-8xl {
