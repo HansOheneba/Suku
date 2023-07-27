@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="animate.css">
+
  <style>
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-      
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
 
     </style>
     <script src="https://kit.fontawesome.com/ecf091b006.js" crossorigin="anonymous"></script>
@@ -122,17 +125,21 @@
   </div>
   
  </section>
-<section>
-  <div class="flex justify-center w-3/5 m-auto">
-  <div class=" bg-[url('img/ceo.png')] bg-auto"> </div>
-  <div class="h-1/2">
-    <h1 class="font-bold text-4xl ">Message from Our Ceo</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab incidunt error, consequatur eligendi blanditiis inventore quidem commodi itaque dolorum aperiam provident id ratione voluptates eveniet adipisci fugit. Quod, voluptates non?
-    </p>
-  </div>
+ <section class="my-20">
+  <div class=" flex flex-col-reverse lg:flex-row justify-center lg:px-96 w-full">
+    <div class="lg:flex lg:items-stretch">
+      <img src="img/ceo.png" alt="Ceo Image" class="lg:h-full object-contain px10">
+    </div>
+    <div class=" font-poppins w-1/2 px-10">
+      <h1 class="font-bold text-4xl">Message from Our CEO</h1>
+      <p class="py-10" >
+        As CEO, my focus is on driving our firm's growth, enhancing corporate value, and meeting our clients' diverse needs. We strive to become a leading global company, assuring our clients that we have their best interest at heart, adapting to new technologies and business models. Our initiatives aim to drive impact and create positive social change, earning the trust of both society and our clients. Your continued support is highly appreciated.
+      </p>
+      <p>-Tsonam Akpeloo <br><span>CEO, Suku Technologies</span> <img src="img/ceo_signature.png" alt=""></p>
+    </div>
   </div>
 </section>
+
 
 
 
@@ -258,11 +265,11 @@
         </div>
       </div>
   </div>
-  <div  class="lg:flex justify-center items-center w-full p-5 ">
+  <div  class="lg:flex justify-center items-center w-full lg:p-5 ">
       <p class="p-5 text-gray-300"><span class="font-bold">Stay in the know!</span> <br> Subscribe to our newsletter to recieve exclusive updates.</p>
-          <form class="m-4 flex text-black">
+          <form class="lg:m-4 flex text-black lg:w-full lg:justify-start justify-center mb-6 ">
             <input class="rounded-l-lg p-4 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white" placeholder="your@mail.com"/>
-          <button class="rounded-r-lg font-bold p-4  bg-slate-700 hover:bg-slate-500 text-white  uppercase  border-t border-b border-r">Subscribe</button>
+          <button class="rounded-r-lg font-bold p-4 text-sm  bg-slate-700 hover:bg-slate-500 text-white  uppercase  border-t border-b border-r">Subscribe</button>
         </form>
       </div>
 <hr>
