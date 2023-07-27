@@ -696,6 +696,14 @@ html {
   height: auto;
 }
 
+.h-1\/2 {
+  height: 50%;
+}
+
+.h-96 {
+  height: 24rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -714,6 +722,38 @@ html {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.w-10\/12 {
+  width: 83.333333%;
+}
+
+.w-3\/5 {
+  width: 60%;
+}
+
+.w-2\/5 {
+  width: 40%;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-7 {
+  width: 1.75rem;
 }
 
 .max-w-\[160px\] {
@@ -936,6 +976,46 @@ html {
 .bg-slate-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\/img\/hero-pattern\.svg\'\)\] {
+  background-image: url('/img/hero-pattern.svg');
+}
+
+.bg-\[url\(\)\] {
+  background-image: url();
+}
+
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\'\/\'\)\] {
+  background-image: url('/');
+}
+
+.bg-\[url\(\'\/img\'\)\] {
+  background-image: url('/img');
+}
+
+.bg-\[url\(\'\/img\/\'\)\] {
+  background-image: url('/img/');
+}
+
+.bg-\[url\(\'\/img\/ceo\'\)\] {
+  background-image: url('/img/ceo');
+}
+
+.bg-\[url\(\'\/img\/ceo\.png\'\)\] {
+  background-image: url('/img/ceo.png');
+}
+
+.bg-\[url\(\'img\/ceo\.png\'\)\] {
+  background-image: url('img/ceo.png');
+}
+
+.bg-auto {
+  background-size: auto;
 }
 
 .p-20 {
