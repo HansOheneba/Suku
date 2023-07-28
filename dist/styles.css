@@ -742,6 +742,10 @@ html {
   width: 100%;
 }
 
+.w-96 {
+  width: 24rem;
+}
+
 .max-w-\[160px\] {
   max-width: 160px;
 }
@@ -1456,5 +1460,58 @@ html {
   .lg\:text-9xl {
     font-size: 8rem;
     line-height: 1;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:my-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .xl\:h-full {
+    height: 100%;
+  }
+
+  .xl\:w-1\/2 {
+    width: 50%;
+  }
+
+  .xl\:flex-row {
+    flex-direction: row;
+  }
+
+  .xl\:px-96 {
+    padding-left: 24rem;
+    padding-right: 24rem;
+  }
+
+  .xl\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:my-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .\32xl\:h-full {
+    height: 100%;
+  }
+
+  .\32xl\:w-1\/2 {
+    width: 50%;
+  }
+
+  .\32xl\:flex-row {
+    flex-direction: row;
+  }
+
+  .\32xl\:px-96 {
+    padding-left: 24rem;
+    padding-right: 24rem;
   }
 }
