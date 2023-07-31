@@ -1886,6 +1886,11 @@ html {
     padding-right: 18rem;
   }
 
+  .lg\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   .lg\:pb-20 {
     padding-bottom: 5rem;
   }
