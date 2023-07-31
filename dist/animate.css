@@ -121,3 +121,21 @@
 	-webkit-transform: translateY(3px) rotate(-45deg);
 	transform: translateY(3px) rotate(-45deg);
 }
+
+  /* Styling for the carousel container */
+  .carousel-container {
+    max-width: 800px; /* Set your desired width */
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  /* Styling for the carousel */
+  .carousel {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  /* Styling for the carousel slides */
+  .carousel-slide {
+    min-width: 100%;
+  }
