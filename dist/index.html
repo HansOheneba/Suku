@@ -96,7 +96,6 @@
         </button>
        </a>
       </div> </main>
-    </header>
 
 
     
@@ -165,26 +164,47 @@
 
 
 
- <!-- Message from our CEO -->
- <section class="my-20">
-  <div class=" flex flex-col 2xl:flex-row justify-center 2xl:px-96 w-full">
-    <div class="flex lg:items-stretch ">
-      <img src="img/ceo.png" alt="Ceo Image" class="2xl:h-full object-contain object-top mx-auto lg:px-10">
-    </div>
-    <div class=" font-poppins mx-auto md:w-1/2 xl:my-0 py-8 2xl:py-0 2xl:px-8 xl:px-28 px-4">
-      <h1 class="font-bold text-3xl">Message from Our CEO</h1>
-      <p class="lg:py-10 py-4 text-sm" >
-        As CEO, my focus is on driving our firm's growth, enhancing corporate value, and meeting our clients' diverse needs. We strive to become a leading global company, assuring our clients that we have their best interest at heart, adapting to new technologies and business models. Our initiatives aim to drive impact and create positive social change, earning the trust of both society and our clients. Your continued support is highly appreciated.
-      </p>
-      <p>-Tsonam Akpeloo <br><span class="text-sky-500 text-sm">CEO, Suku Technologies</span> <img src="img/ceo_signature.png" alt="" class=" h-14 object-cover"></p>
-      <div class="flex items-center justify-center border-customBlue border-2 rounded py-5 px-8 shadow-lg">
-        <div class="text-customBlue text-4xl font-bold mr-4">15+</div>
-        <div class="text-customBlue text-xl font-medium">Years of Working Experience</div>
-      </div>
-    </div>
+<!-- Our attributes Section -->
+<section class="bg-customBlue w-full my-10">
+<div class="py-10"> 
+ <div>
+  <h1 class="text-white text-center font-semibold text-3xl">
+  Crafting Innovation for the Toughest Challenges
+</h1>
+</div>
+<div class="flex flex-col items-center justify-center py-20 space-y-6 md:flex-row md:space-x-6">
+  <div class="text-white flex-col w-64 text-center p-2">
+    <div><i class="fa-solid fa-thumbs-up text-5xl"></i></div>
+    <div><h1 class="text-sky-500 font-semibold text-lg py-6">Excellence</h1></div>
+    <div><p class="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat esse ea dolorum sit pariatur eveniet!</p></div>
   </div>
+  <div class="text-white flex-col w-64 text-center p-2">
+    <div><i class="fa-solid fa-check text-5xl"></i></div>
+    <div><h1 class="text-sky-500 font-semibold text-lg py-6">Standard</h1></div>
+    <div><p class="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat esse ea dolorum sit pariatur eveniet!</p></div>
+  </div>
+  <div class="text-white flex-col w-64 text-center p-2">
+    <div><i class="fa-solid fa-handshake text-5xl"></i></div>
+    <div><h1 class="text-sky-500 font-semibold text-lg py-6">Reliable</h1></div>
+    <div><p class="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat esse ea dolorum sit pariatur eveniet!</p></div>
+  </div>
+  <div class="text-white flex-col w-64 text-center p-2">
+    <div><i class="fa-solid fa-shield-halved text-5xl"></i></div>
+    <div><h1 class="text-sky-500 font-semibold text-lg py-6">Secure</h1></div>
+    <div><p class="font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat esse ea dolorum sit pariatur eveniet!</p></div>
+  </div>
+</div>
+
+
+<div class=" flex justify-center">
+  <a href="contact.html" class="inline-flex items-center justify-center h-16 px-10 py-0 text-xl font-semibold text-center text-gray-300 no-underline align-middle transition-all duration-300 ease-in-out bg-transparent border-2 border-gray-600 border-solid rounded-full cursor-pointer select-none hover:text-white hover:border-white focus:shadow-xs focus:no-underline">
+    Get a Quote
+    </a>
+</div>
+</div>
 </section>
-<!-- End of Message From Our CEO -->
+<!-- End of Our attributes Section -->
+ 
 
 
 <!-- testimonials section -->
@@ -448,46 +468,9 @@
 </footer>
 <!-- Footer end -->
 
-   <script>
-    (function () {
-      const header = document.querySelector('.header');
-      const icon = document.querySelector('.icon-container');
-  
-      icon.onclick = function () {
-        header.classList.toggle('menu-open');
-       };
-    })();
-    
- 
-      window.addEventListener('DOMContentLoaded', function () {
-        const carousel = document.querySelector('.carousel');
-        const slides = document.querySelectorAll('.carousel-slide');
-        const prevBtn = document.querySelector('.prev-btn');
-        const nextBtn = document.querySelector('.next-btn');
-    
-        let slideIndex = 0;
-    
-        function showSlide(index) {
-          if (index < 0) {
-            slideIndex = slides.length - 1;
-          } else if (index >= slides.length) {
-            slideIndex = 0;
-          }
-    
-          carousel.style.transform = `translateX(-${slideIndex * 100}%)`;
-        }
-    
-        prevBtn.addEventListener('click', () => {
-          showSlide(--slideIndex);
-        });
-    
-        nextBtn.addEventListener('click', () => {
-          showSlide(++slideIndex);
-        });
-    
-        showSlide(slideIndex); // Show the initial slide
-      });
-    </script>
+<script src="app.js">
+</script>
+
     
 
   

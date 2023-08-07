@@ -5,17 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="animate.css">
+
  <style>
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-      
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
 
     </style>
     <script src="https://kit.fontawesome.com/ecf091b006.js" crossorigin="anonymous"></script>
     <title>SUKU Technologies | Software solutions</title>
   </head>
-  <body class="box-border">
+  <body style="font-family: 'Open Sans', sans-serif;" class="box-border bg-gray-100">
     
-      <div class="header h-24 lg:h-28 px-8 lg:px-20 w-full overflow-hidden z-10 fixed bg-stone-950/25 backdrop-blur">
+      <div class="header h-24 lg:h-28 lg:px-20 w-full overflow-hidden z-10 fixed bg-stone-950/25 backdrop-blur">
         <div class="flex justify-between items-center font-poppins"> <a href="index.html" class="flex">
           <div class="h-auto w-40  lg:w-48" id="logo">
             <img src="img/logo.png" class="" alt="SUKU_Logo">
@@ -25,13 +28,13 @@
             
         <div class="hidden lg:flex items-center ">
           <ul class="flex items-center space-x-4 text-white">
-            <li><a href="index.html"  class="text-md font-medium  hover:text-blue-400 transition ease-in duration-150">Home</a></li>
+            <li><a href="index.html" style="border-bottom: 2px solid #288BDC;" class="text-md font-medium  hover:text-blue-400 transition ease-in duration-150">Home</a></li>
             <li><a href="solutions.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Solutions</a></li>
-            <li><a href="about.html" style="border-bottom: 2px solid #288BDC;" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">About</a></li>
+            <li><a href="about.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">About</a></li>
             <li><a href="initiatives.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Initiatives</a></li>
             <li><a href="careers.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Careers</a></li>
             <li><a href="blog.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Blog</a></li>
-            <li><a href="contact.html"  class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Contact</a></li>
+            <li><a href="contact.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Contact</a></li>
           </ul>
         </div>
         <div class="hidden lg:flex justify-between space-x-5 text-white text-lg">
@@ -75,6 +78,34 @@
           </ul>
         </div>
       </div>
+<!-- End Of Nav -->
+
+
+
+<!-- Message from our CEO -->
+<section class="pt-40">
+  <div class=" flex flex-col 2xl:flex-row justify-center 2xl:px-96 w-full">
+    <div class="flex lg:items-stretch ">
+      <img src="img/ceo.png" alt="Ceo Image" class="2xl:h-full object-contain object-top mx-auto lg:px-10">
+    </div>
+    <div class=" font-poppins mx-auto md:w-1/2 xl:my-0 py-8 2xl:py-0 2xl:px-8 xl:px-28 px-4">
+      <h1 class="font-bold text-3xl">Message from Our CEO</h1>
+      <p class="lg:py-10 py-4 text-sm" >
+        As CEO, my focus is on driving our firm's growth, enhancing corporate value, and meeting our clients' diverse needs. We strive to become a leading global company, assuring our clients that we have their best interest at heart, adapting to new technologies and business models. Our initiatives aim to drive impact and create positive social change, earning the trust of both society and our clients. Your continued support is highly appreciated.
+      </p>
+      <p>-Tsonam Akpeloo <br><span class="text-sky-500 text-sm">CEO, Suku Technologies</span> <img src="img/ceo_signature.png" alt="" class=" h-14 object-cover"></p>
+      <div class="flex items-center justify-center border-customBlue border-2 rounded py-5 px-8 shadow-lg">
+        <div class="text-customBlue text-4xl font-bold mr-4">15+</div>
+        <div class="text-customBlue text-xl font-medium">Years of Working Experience</div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End of Message From Our CEO -->
+
+
+
+
   <!-- Footer Section -->
 <footer class=" text-slate-300 bg-customBlue pt-20 pb-10 lg:pt-[120px] lg:pb-20">
     <div class="container mx-auto">
@@ -205,17 +236,9 @@
   </footer>
   <!-- Footer end -->
   
-     <script>
-      (function () {
-        const header = document.querySelector('.header');
-        const icon = document.querySelector('.icon-container');
-    
-        icon.onclick = function () {
-          header.classList.toggle('menu-open');
-         };
-      })();
-      
+  <script src="app.js">
     </script>
+    
     
     
     
