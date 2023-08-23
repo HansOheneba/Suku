@@ -777,6 +777,10 @@ html {
   width: 100%;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .max-w-\[160px\] {
   max-width: 160px;
 }
@@ -1044,6 +1048,26 @@ html {
   background-color: rgb(228 228 231 / 0.7);
 }
 
+.bg-sky-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(12 74 110 / var(--tw-bg-opacity));
+}
+
+.bg-sky-950 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(8 47 73 / var(--tw-bg-opacity));
+}
+
+.bg-slate-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+
+.bg-slate-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1208,6 +1232,10 @@ html {
 
 .text-center {
   text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .align-middle {
