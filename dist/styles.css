@@ -1873,6 +1873,10 @@ html {
     padding: 2.5rem;
   }
 
+  .md\:p-20 {
+    padding: 5rem;
+  }
+
   .md\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
