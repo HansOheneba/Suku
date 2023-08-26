@@ -2248,6 +2248,10 @@ html {
   .md\:text-center {
     text-align: center;
   }
+
+  .md\:leading-tight {
+    line-height: 1.25;
+  }
 }
 
 @media (min-width: 1024px) {
