@@ -701,6 +701,10 @@ html {
   margin-top: -5rem;
 }
 
+.-mt-16 {
+  margin-top: -4rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
