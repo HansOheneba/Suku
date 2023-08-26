@@ -5,76 +5,204 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="animate.css">
- <style>
-  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-      
-
-    </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+      .font-poppins {
+        font-family: 'Poppins', sans-serif;
+      }
+    
+        </style>
     <script src="https://kit.fontawesome.com/ecf091b006.js" crossorigin="anonymous"></script>
     <title>SUKU Technologies | Software solutions</title>
   </head>
   <body class="box-border">
-    
-      <div class="header h-24 lg:h-28 px-8 lg:px-20 w-full overflow-hidden z-10 fixed bg-stone-950/25 backdrop-blur">
-        <div class="flex justify-between items-center font-poppins"> <a href="index.html" class="flex">
-          <div class="h-auto w-40  lg:w-48" id="logo">
-            <img src="img/logo.png" class="" alt="SUKU_Logo">
-          </div>
-        </a>
-  
-            
-        <div class="hidden lg:flex items-center ">
-          <ul class="flex items-center space-x-4 text-white">
-            <li><a href="index.html"  class="text-md font-medium  hover:text-blue-400 transition ease-in duration-150">Home</a></li>
-            <li><a href="solutions.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Solutions</a></li>
-            <li><a href="about.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">About</a></li>
-            <li><a href="initiatives.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Initiatives</a></li>
-            <li><a href="careers.html" style="border-bottom: 2px solid #288BDC;" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Careers</a></li>
-            <li><a href="blog.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Blog</a></li>
-            <li><a href="contact.html"  class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Contact</a></li>
-          </ul>
+
+
+    <!-- start of nav  -->
+    <div class="header h-20 lg:px-20 w-full items-center overflow-hidden z-10 fixed top-0 bg-stone-950/25 backdrop-blur-3xl">
+      <div class="flex justify-between items-center h-20 my-auto font-poppins"> <a href="index.html" class="flex px-5 ">
+        <div class="h-24 w-32 pt-5 items-center " id="logo">
+          <img src="img/logo.png" class="my-auto" alt="SUKU_Logo">
         </div>
-        <div class="hidden lg:flex justify-between space-x-5 text-white text-lg">
-          <a href="https://www.facebook.com/sukutechnologies/" target="_blank" class="fa-brands fa-facebook hover:text-blue-500 transition ease-in duration-150"></a>
-          <a href="https://twitter.com/sukutech_" target="_blank" class="fa-brands fa-twitter hover:text-blue-400 transition ease-in duration-150"></a>
-          <a href="https://www.linkedin.com/company/suku-technologies/" target="_blank" class="fa-brands fa-linkedin hover:text-blue-700 transition ease-in duration-150"></a>
-          <a href="https://www.instagram.com/sukutechnologies_" target="_blank" class="fa-brands fa-instagram hover:text-pink-600 transition ease-in duration-150"></a>
-        </div>
-       <div class="flex justify-end items-center"> <a href="search.html" class="fa-solid fa-magnifying-glass text-white pl-4 hover:text-blue-400 transition ease-in duration-150 mr-6"></a>
-        <div class="icon-container relative inline-block z-20 lg:hidden">
-          <div id="menuicon">
-            <div class="bar bar1"></div>
-            <div class="bar bar2"></div>
-          </div></div>
-        </div></div>
-       
-        <div class="clear-both">
-          <ul class="menu relative block list-none">
-            <li class="menu-item "><a class="block relative text-white no-underline text-xl w-full focus:outline-none" href="index.html">Home</a>
-            </li>
-            <li class="menu-item"><a class="block relative text-white no-underline text-xl w-full focus:outline-none" href="solutions.html">Solutions</a>
-            </li>
-            <li class="menu-item"><a class="block relative text-white no-underline text-xl w-full focus:outline-none" href="about.html">About</a>
-            </li>
-            <li class="menu-item"><a class="block relative text-white no-underline text-xl w-full focus:outline-none" href="initiatives.html">Initiatives</a>
-            </li>
-            </li>
-            <li class="menu-item"><a class="block relative text-white no-underline text-xl w-full focus:outline-none" href="careers.html">Careers</a>
-            </li>
-            <li class="menu-item"><a class="block relative text-white no-underline text-xl w-full focus:outline-none" href="blog.html">Blog</a>
-            </li>
-            <li class="menu-item"><a  class="block relative text-white no-underline text-xl w-full focus:outline-none" href="contact.html">Contact</a>
-            </li>
-            <li ><div class="flex justify-start space-x-10 text-white text-xl p-5">
-              <a href="https://www.facebook.com/sukutechnologies/" target="_blank" class="fa-brands fa-facebook hover:text-blue-500 transition ease-in duration-150"></a>
-              <a href="https://twitter.com/sukutech_" target="_blank" class="fa-brands fa-twitter hover:text-blue-400 transition ease-in duration-150"></a>
-              <a href="https://www.linkedin.com/company/suku-technologies/" target="_blank" class="fa-brands fa-linkedin hover:text-blue-700 transition ease-in duration-150"></a>
-              <a href="https://www.instagram.com/sukutechnologies_" target="_blank" class="fa-brands fa-instagram hover:text-pink-600 transition ease-in duration-150"></a>
-            </div>
-            </li>
-          </ul>
-        </div>
+      </a>
+
+          
+      <div class="hidden lg:flex items-center ">
+        <ul class="flex items-center space-x-4 text-white">
+          <li><a href="index.html" style="border-bottom: 2px solid #288BDC;" class="text-md font-medium  hover:text-blue-400 transition ease-in duration-150">Home</a></li>
+          <li><a href="solutions.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Solutions</a></li>
+          <li><a href="about.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">About</a></li>
+          <li><a href="initiatives.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Initiatives</a></li>
+          <li><a href="careers.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Careers</a></li>
+          <li><a href="blog.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Blog</a></li>
+          <li><a href="contact.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Contact</a></li>
+        </ul>
       </div>
+      <div class="hidden lg:flex justify-between space-x-5 text-white text-lg">
+        <a href="https://www.facebook.com/sukutechnologies/" target="_blank" class="fa-brands fa-facebook hover:text-blue-500 transition ease-in duration-150"></a>
+        <a href="https://twitter.com/sukutech_" target="_blank" class="fa-brands fa-twitter hover:text-blue-400 transition ease-in duration-150"></a>
+        <a href="https://www.linkedin.com/company/suku-technologies/" target="_blank" class="fa-brands fa-linkedin hover:text-blue-700 transition ease-in duration-150"></a>
+        <a href="https://www.instagram.com/sukutechnologies_" target="_blank" class="fa-brands fa-instagram hover:text-pink-600 transition ease-in duration-150"></a>
+      </div>
+     <div class="flex justify-end items-center"> <a href="search.html" class="fa-solid fa-magnifying-glass text-white pl-4 hover:text-blue-400 transition ease-in duration-150 mr-6"></a>
+      <div class="icon-container relative inline-block z-20 lg:hidden">
+        <div id="menuicon">
+          <div class="bar bar1"></div>
+          <div class="bar bar2"></div>
+        </div></div>
+      </div></div>
+     
+      <div class="clear-both">
+        <ul class="menu relative block list-none">
+          <li class="menu-item "><a class="block relative text-white no-underline text-xl w-full focus:outline-none" href="index.html">Home</a>
+          </li>
+          <li class="menu-item"><a class="block relative text-white no-underline text-xl w-full focus:outline-none" href="solutions.html">Solutions</a>
+          </li>
+          <li class="menu-item"><a class="block relative text-white no-underline text-xl w-full focus:outline-none" href="about.html">About</a>
+          </li>
+          <li class="menu-item"><a class="block relative text-white no-underline text-xl w-full focus:outline-none" href="initiatives.html">Initiatives</a>
+          </li>
+          </li>
+          <li class="menu-item"><a class="block relative text-white no-underline text-xl w-full focus:outline-none" href="careers.html">Careers</a>
+          </li>
+          <li class="menu-item"><a class="block relative text-white no-underline text-xl w-full focus:outline-none" href="blog.html">Blog</a>
+          </li>
+          <li class="menu-item"><a  class="block relative text-white no-underline text-xl w-full focus:outline-none" href="contact.html">Contact</a>
+          </li>
+          <li ><div class="flex justify-start space-x-10 text-white text-xl p-5">
+            <a href="https://www.facebook.com/sukutechnologies/" target="_blank" class="fa-brands fa-facebook hover:text-blue-500 transition ease-in duration-150"></a>
+            <a href="https://twitter.com/sukutech_" target="_blank" class="fa-brands fa-twitter hover:text-blue-400 transition ease-in duration-150"></a>
+            <a href="https://www.linkedin.com/company/suku-technologies/" target="_blank" class="fa-brands fa-linkedin hover:text-blue-700 transition ease-in duration-150"></a>
+            <a href="https://www.instagram.com/sukutechnologies_" target="_blank" class="fa-brands fa-instagram hover:text-pink-600 transition ease-in duration-150"></a>
+          </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- End of Nav  -->
+<section class="pt-20">
+  <main>
+    <h1 class="font-bold font-poppins text-center text-customBlue text-3xl lg:text-5xl p-5">Careers at Suku</h1>
+    <div class="mx-auto p-5 md:w-3/5">
+      <p class="text-md text-slate-800 font-normal font-poppins ">
+        Suku is driven by a strong desire to guide Ghana into a new era of progress through technology. Our goal is to inspire change by updating the landscape and fostering growth with innovative solutions. We think that technology has the capacity to empower young minds and open possibilities. We are co-authoring a tale of freedom, inclusion, and limitless potential by embracing the digital domain. <br> Join us on this exciting journey as we pave the path for a brighter, more tech-driven Ghana where everyone can thrive and contribute.
+
+      </p>
+    </div>
+
+    <div class="p-5">
+      <h1 class="font-bold font-poppins text-center text-customBlue text-2xl lg:text-4xl p-5">Current Openings</h1>
+      <div class="bg-stone-900/5 rounded-lg md:w-fit mx-auto p-5 shadow-gray-300 shadow-md">
+        <h1 class="font-bold font-poppins text-center text-customBlue text-xl lg:text-2xl p-4">
+          Design
+        </h1>
+       <div class="flex sm:flex-row flex-col font-poppins">
+       <a class="p-2" href="#"> 
+        <div class="p-5 hover:bg-gray-100/70 transition ease-out shadow-lg shadow-gray-300 bg-white rounded-lg w-full sm:w-fit">
+        <h4 class="font-bold text-blue-800">UI Designer</h4>
+        <p><i class="fa-solid fa-location-dot font-semibold "></i> <span class="text-gray-500">Ghana, Remote</span></p>
+      </div>
+    </a>
+       <a class="p-2" href="#"> 
+        <div class="p-5 hover:bg-gray-100/70 transition ease-out shadow-lg shadow-gray-300 bg-white rounded-lg w-full sm:w-fit">
+        <h4 class="font-bold text-blue-800">Graphic Designer</h4>
+        <p><i class="fa-solid fa-location-dot "></i> <span class="text-gray-500">Anywhere, Remote</span> </p>
+      </div>
+       </a>
+       <a class="p-2" href="#"> 
+        <div class="p-5 hover:bg-gray-100/70 transition ease-out shadow-lg shadow-gray-300 bg-white rounded-lg w-full sm:w-fit">
+        <h4 class="font-bold text-blue-800">Video Editor</h4>
+        <p><i class="fa-solid fa-location-dot "></i><span class="text-gray-500"> Ghana, Accra</span></p>
+      </div>
+       </a>
+       <a class="p-2" href="#"> 
+        <div class="p-5 hover:bg-gray-100/70 transition ease-out shadow-lg shadow-gray-300 bg-white rounded-lg w-full sm:w-fit">
+        <h4 class="font-bold text-blue-800">Mobile Product Designer</h4>
+        <p><i class="fa-solid fa-location-dot "></i><span class="text-gray-500"> Ghana, Accra</span> </p>
+      </div>
+       </a>
+       </div>
+       <h1 class="font-bold font-poppins text-center text-customBlue text-xl lg:text-2xl p-4">
+        Engineering
+      </h1>
+     <div class="flex sm:flex-row flex-col font-poppins">
+     <a class="p-2" href="#"> 
+      <div class="p-5 hover:bg-gray-100/70 transition ease-out shadow-lg shadow-gray-300 bg-white rounded-lg w-full sm:w-fit">
+      <h4 class="font-bold text-blue-800">Web Developer - Front End</h4>
+      <p><i class="fa-solid fa-location-dot font-semibold "></i> <span class="text-gray-500">Ghana, Remote</span></p>
+    </div>
+  </a>
+     <a class="p-2" href="#"> 
+      <div class="p-5 hover:bg-gray-100/70 transition ease-out shadow-lg shadow-gray-300 bg-white rounded-lg w-full sm:w-fit">
+      <h4 class="font-bold text-blue-800">Senior Software Developer</h4>
+      <p><i class="fa-solid fa-location-dot "></i> <span class="text-gray-500">Ghana, Remote</span> </p>
+    </div>
+     </a>
+     <a class="p-2" href="#"> 
+      <div class="p-5 hover:bg-gray-100/70 transition ease-out shadow-lg shadow-gray-300 bg-white rounded-lg w-full sm:w-fit">
+      <h4 class="font-bold text-blue-800">Software Developer Intern</h4>
+      <p><i class="fa-solid fa-location-dot "></i> <span class="text-gray-500">Ghana, Remote</span> </p>
+    </div>
+     </a>
+     <a class="p-2" href="#"> 
+      <div class="p-5 hover:bg-gray-100/70 transition ease-out shadow-lg shadow-gray-300 bg-white rounded-lg w-full sm:w-fit">
+      <h4 class="font-bold text-blue-800">Mobile App Developer</h4>
+      <p><i class="fa-solid fa-location-dot "></i><span class="text-gray-500"> Ghana, Remote</span></p>
+    </div>
+     </a>
+     </div>
+       <h1 class="font-bold font-poppins text-center text-customBlue text-xl lg:text-2xl p-4">
+        Marketing
+      </h1>
+     <div class="flex sm:flex-row flex-col font-poppins">
+     <a class="p-2" href="#"> 
+      <div class="p-5 hover:bg-gray-100/70 transition ease-out shadow-lg shadow-gray-300 bg-white rounded-lg w-full sm:w-fit">
+      <h4 class="font-bold text-blue-800">Marketing Specialist</h4>
+      <p><i class="fa-solid fa-location-dot font-semibold "></i> <span class="text-gray-500">Ghana, Accra</span></p>
+    </div>
+  </a>
+     <a class="p-2" href="#"> 
+      <div class="p-5 hover:bg-gray-100/70 transition ease-out shadow-lg shadow-gray-300 bg-white rounded-lg w-full sm:w-fit">
+      <h4 class="font-bold text-blue-800">Market Analyst</h4>
+      <p><i class="fa-solid fa-location-dot "></i> <span class="text-gray-500">Ghana, Accra</span> </p>
+    </div>
+     </a>
+     <a class="p-2" href="#"> 
+      <div class="p-5 hover:bg-gray-100/70 transition ease-out shadow-lg shadow-gray-300 bg-white rounded-lg w-full sm:w-fit">
+      <h4 class="font-bold text-blue-800">Marketing assistant</h4>
+      <p><i class="fa-solid fa-location-dot "></i><span class="text-gray-500"> Ghana, Accra</span></p>
+    </div>
+     </a>
+     <a class="p-2" href="#"> 
+      <div class="p-5 hover:bg-gray-100/70 transition ease-out shadow-lg shadow-gray-300 bg-white rounded-lg w-full sm:w-fit">
+      <h4 class="font-bold text-blue-800">Marketing Intern</h4>
+      <p><i class="fa-solid fa-location-dot "></i><span class="text-gray-500"> Ghana, Accra</span></p>
+    </div>
+     </a>
+     </div>
+      </div>
+    </div>
+  
+  </main>
+
+</section>
+<section class="p-5">
+  <div class="bg-anotherBlue text-white rounded-lg mx-auto p-5 md:w-2/5">
+    <h1 class="font-bold font-poppins text-center text-xl lg:text-2xl p-4">
+      Can't find a role you fit in?
+    </h1>
+    <p  class="font-poppins">
+      We are continuously looking for passionate, hardworking individuals to join our dynamic team. If you believe you have what it takes, whether you are a student or recent graduate seeking for an internship or an experienced professional looking for a full-time employment,
+
+Send us a Cover letter and CV <a class="text-sky-500 hover:underline" href="mailto:info@sukutechnologies.com">here</a>
+    </p>
+   
+
+  </div>
+</section>
+
+
+
   <!-- Footer Section -->
 <footer class=" text-slate-300 bg-customBlue pt-20 pb-10 lg:pt-[120px] lg:pb-20">
     <div class="container mx-auto">
