@@ -5,219 +5,351 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="animate.css">
+
  <style>
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-      
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
 
     </style>
     <script src="https://kit.fontawesome.com/ecf091b006.js" crossorigin="anonymous"></script>
     <title>SUKU Technologies | Software solutions</title>
   </head>
-  <body class="box-border">
+  <body style="font-family: 'Open Sans', sans-serif;" class="box-border bg-gray-100">
     
-      <div class="header h-24 lg:h-28 px-8 lg:px-20 w-full overflow-hidden z-10 fixed bg-stone-950/25 backdrop-blur">
-        <div class="flex justify-between items-center font-poppins"> <a href="index.html" class="flex">
-          <div class="h-auto w-40  lg:w-48" id="logo">
-            <img src="img/logo.png" class="" alt="SUKU_Logo">
-          </div>
-        </a>
-  
-            
-        <div class="hidden lg:flex items-center ">
-          <ul class="flex items-center space-x-4 text-white">
-            <li><a href="index.html"  class="text-md font-medium  hover:text-blue-400 transition ease-in duration-150">Home</a></li>
-            <li><a href="solutions.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Solutions</a></li>
-            <li><a href="about.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">About</a></li>
-            <li><a href="initiatives.html" style="border-bottom: 2px solid #288BDC;" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Initiatives</a></li>
-            <li><a href="careers.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Careers</a></li>
-            <li><a href="blog.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Blog</a></li>
-            <li><a href="contact.html"  class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Contact</a></li>
-          </ul>
+    <div class="header h-20 lg:px-20 w-full items-center overflow-hidden z-10 fixed top-0 bg-customBlue/75 backdrop-blur-3xl">
+  <div class="flex justify-between items-center h-20 my-auto font-poppins"> 
+    <a href="index.html" class="flex px-5 ">
+      <div class="flex h-16 w-28 items-center" id="logo">
+        <img src="img/logo.png" class="my-auto" alt="SUKU_Logo">
+      </div>
+    </a>
+    <div class="hidden lg:flex items-center ">
+      <ul class="flex items-center space-x-4 text-white">
+        <li><a href="index.html" style="border-bottom: 2px solid #288BDC;" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Home</a></li>
+        <li><a href="solutions.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Solutions</a></li>
+        <li><a href="about.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">About</a></li>
+        <li><a href="initiatives.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Initiatives</a></li>
+        <li><a href="careers.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Careers</a></li>
+        <li><a href="blog.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Blog</a></li>
+        <li><a href="contact.html" class="text-md font-medium hover:text-blue-400 transition ease-in duration-150">Contact</a></li>
+      </ul>
+    </div>
+    <div class="hidden lg:flex justify-between space-x-5 text-white text-lg">
+      <a href="https://www.facebook.com/sukutechnologies/" target="_blank" class="fa-brands fa-facebook hover:text-blue-500 transition ease-in duration-150"></a>
+      <a href="https://twitter.com/sukutech_" target="_blank" class="fa-brands fa-twitter hover:text-blue-400 transition ease-in duration-150"></a>
+      <a href="https://www.linkedin.com/company/suku-technologies/" target="_blank" class="fa-brands fa-linkedin hover:text-blue-700 transition ease-in duration-150"></a>
+      <a href="https://www.instagram.com/sukutechnologies_" target="_blank" class="fa-brands fa-instagram hover:text-pink-600 transition ease-in duration-150"></a>
+    </div>
+    <div class="flex justify-end items-center"> 
+      <a href="search.html" class="fa-solid fa-magnifying-glass text-white pl-4 hover:text-blue-400 transition ease-in duration-150 mr-6"></a>
+      <div class="icon-container relative inline-block z-20 lg:hidden">
+        <div id="menuicon">
+          <div class="bar bar1"></div>
+          <div class="bar bar2"></div>
         </div>
-        <div class="hidden lg:flex justify-between space-x-5 text-white text-lg">
+      </div>
+    </div>
+  </div>
+  <div class="clear-both">
+    <ul class="menu relative block list-none">
+      <li class="menu-item"><a class="block relative text-white no-underline text-xl w-full focus:outline-none" href="index.html">Home</a></li>
+      <li class="menu-item"><a class="block relative text-white no-underline text-xl w-full focus:outline-none" href="solutions.html">Solutions</a></li>
+      <li class="menu-item"><a class="block relative text-white no-underline text-xl w-full focus:outline-none" href="about.html">About</a></li>
+      <li class="menu-item"><a class="block relative text-white no-underline text-xl w-full focus:outline-none" href="initiatives.html">Initiatives</a></li>
+      <li class="menu-item"><a class="block relative text-white no-underline text-xl w-full focus:outline-none" href="careers.html">Careers</a></li>
+      <li class="menu-item"><a class="block relative text-white no-underline text-xl w-full focus:outline-none" href="blog.html">Blog</a></li>
+      <li class="menu-item"><a class="block relative text-white no-underline text-xl w-full focus:outline-none" href="contact.html">Contact</a></li>
+      <li>
+        <div class="flex justify-start space-x-10 text-white text-xl p-5">
           <a href="https://www.facebook.com/sukutechnologies/" target="_blank" class="fa-brands fa-facebook hover:text-blue-500 transition ease-in duration-150"></a>
           <a href="https://twitter.com/sukutech_" target="_blank" class="fa-brands fa-twitter hover:text-blue-400 transition ease-in duration-150"></a>
           <a href="https://www.linkedin.com/company/suku-technologies/" target="_blank" class="fa-brands fa-linkedin hover:text-blue-700 transition ease-in duration-150"></a>
           <a href="https://www.instagram.com/sukutechnologies_" target="_blank" class="fa-brands fa-instagram hover:text-pink-600 transition ease-in duration-150"></a>
         </div>
-       <div class="flex justify-end items-center"> <a href="search.html" class="fa-solid fa-magnifying-glass text-white pl-4 hover:text-blue-400 transition ease-in duration-150 mr-6"></a>
-        <div class="icon-container relative inline-block z-20 lg:hidden">
-          <div id="menuicon">
-            <div class="bar bar1"></div>
-            <div class="bar bar2"></div>
-          </div></div>
-        </div></div>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- End Of Nav -->
+
+
+<section>
+  <div class="pt-20">
+    <div class="text-center p-5">
+      <h1 class="font-bold font-poppins text-customBlue text-3xl lg:text-5xl p-5">Our Innitiatives</h1>
+      <p class="font-poppins">
+        We are deeply committed to addressing local and global concerns with innovative solutions in order to uplift communities, improve lives, and optimize businesses. <br> Our goal is to create a better world in which the transformative potential of technology is harnessed through innovative solutions that are accessible to everybody. <br> Our unwavering dedication is based on ensuring that our technical advances assist people all across the world.
+
+      </p>
+</div>
+  </div>
+</section>
+
+
+
+
+<!-- Initiatives Section  -->
+<section class="md:p-10">
+  <div class=" p-5 text-center">
+
+    <div class="pb-10">
+      <div class="pb-5">
+        <div class=" rounded-lg bg-customBlue lg:w-2/3 mx-auto p-5">
        
-        <div class="clear-both">
-          <ul class="menu relative block list-none">
-            <li class="menu-item "><a class="block relative text-white no-underline text-xl w-full focus:outline-none" href="index.html">Home</a>
-            </li>
-            <li class="menu-item"><a class="block relative text-white no-underline text-xl w-full focus:outline-none" href="solutions.html">Solutions</a>
-            </li>
-            <li class="menu-item"><a class="block relative text-white no-underline text-xl w-full focus:outline-none" href="about.html">About</a>
-            </li>
-            <li class="menu-item"><a class="block relative text-white no-underline text-xl w-full focus:outline-none" href="initiatives.html">Initiatives</a>
-            </li>
-            </li>
-            <li class="menu-item"><a class="block relative text-white no-underline text-xl w-full focus:outline-none" href="careers.html">Careers</a>
-            </li>
-            <li class="menu-item"><a class="block relative text-white no-underline text-xl w-full focus:outline-none" href="blog.html">Blog</a>
-            </li>
-            <li class="menu-item"><a  class="block relative text-white no-underline text-xl w-full focus:outline-none" href="contact.html">Contact</a>
-            </li>
-            <li ><div class="flex justify-start space-x-10 text-white text-xl p-5">
+          <div class="py-5">  
+           
+            <div class="flex flex-col md:flex-row  items-center">
+              <img class="lg:w-1/3 md:w-1/2" src="img/Logo-kadodo.png" alt="">
+          
+             <div class="lg:w-2/3 md:w-1/2 flex flex-col justify-between h-full px-8">
+              <h4 class="font-bold font-poppins text-white text-left text-3xl" >Kadodo Africa</h4>
+              <h6 class=" text-xs text-left text-gray-400">BUSINESS DIRECTORY & PROFILING</h6>
+              <p class=" text-white font-poppins text-sm text-left  py-5">
+                Kadodo Africa is a business, industrial, and trade online resource dedicated to connecting businesses of all sorts, particularly SMEs, with consumers who are actively seeking online for their products and services. The platform functions as a business directory, marketing site, product display portal, and job advertising and recruitment site. It positions firms to be competitive in their respective industries.
+                Kadodo was designed to identify, verify, and authenticate firms in Africa, beginning with Ghana, so that they can take benefit of the Africa Continental Free Trade Agreement (ACFTA).
+                <br>
+                <br>
+                <a  href="https://kadodoafrica.com/"> <button class=" rounded-md px-7 py-2 hover:bg-sky-400 hover:shadow-black backdrop-blur-md bg-sky-500 hover:shadow transition ease-out duration-10">
+                  <span class=" text-white text-lg font-bold">View</span>
+                </button></a>
+              </p>
+            </div>
+        </div>
+        </div>
+         </div>
+      </div>
+      <div class="pb-5">
+        <div class=" rounded-lg bg-customBlue lg:w-2/3 mx-auto p-5">
+       
+          <div class="py-5">  
+           
+            <div class="flex flex-col md:flex-row  items-center">
+              <img class="lg:w-1/3 md:w-1/2" src="img/Logo-eduboost.png" alt="">
+          
+             <div class="lg:w-2/3 md:w-1/2 flex flex-col justify-between h-full px-8">
+              <h4 class="font-bold font-poppins text-white text-left text-3xl" >eDuBoost</h4>
+              <h6 class=" text-xs text-left uppercase text-gray-400">Social Impact Project</h6>
+              <p class=" text-white font-poppins text-sm text-left  py-5">
+                eDuBoost is a social impact initiative focused on integrating information and technology (IT) into education in Ghana. Through teacher and student training, it aims to enhance learning using technology. The project provides schools with affordable, advanced tech solutions through shared-cost methods and collaborations with tech partners. This includes ICT training facilities, administration systems, personalized websites, e-learning tools, and ongoing support. eDuBoost also conducts refresher courses for teachers, IT training for administrators, and system maintenance to ensure effective implementation.
+                <br>
+                <br>
+                <a  href="https://eduboostgh.com/"> <button class=" rounded-md px-7 py-2 hover:bg-sky-400 hover:shadow-black backdrop-blur-md bg-sky-500 hover:shadow transition ease-out duration-10">
+                  <span class=" text-white text-lg font-bold">View</span>
+                </button></a>
+              </p>
+            </div>
+        </div>
+        </div>
+         </div>
+      </div>
+      <div class="pb-5">
+        <div class=" rounded-lg bg-customBlue lg:w-2/3 mx-auto p-5">
+       
+          <div class="py-5">  
+           
+            <div class="flex flex-col md:flex-row  items-center">
+              <img class="lg:w-1/3 md:w-1/2" src="img/sukupay.png" alt="">
+          
+             <div class="lg:w-2/3 md:w-1/2 flex flex-col justify-between h-full px-8">
+              <h4 class="font-bold font-poppins text-white text-left text-3xl" >Sukupay</h4>
+              <h6 class=" text-xs text-left uppercase text-gray-400">Payment Solution</h6>
+              <p class=" text-white font-poppins text-sm text-left  py-5">
+                Sukupay is a third-party mobile, online payment solution and transactional system that also supports offline digital payment via QR codes.
+
+                Sukupay is made up of two parts: the payment solution and the e-commerce platform, which allows merchants and individuals to conduct seamless transactions at a relatively low cost.
+                
+                <br>
+                <br>
+                <a  href="https://eduboostgh.com/"> <button class=" rounded-md px-7 py-2 hover:bg-sky-400 hover:shadow-black backdrop-blur-md bg-sky-500 hover:shadow transition ease-out duration-10">
+                  <span class=" text-white text-lg font-bold">View</span>
+                </button></a>
+              </p>
+            </div>
+        </div>
+        </div>
+         </div>
+      </div>
+      <div class="pb-5">
+        <div class=" rounded-lg bg-customBlue lg:w-2/3 mx-auto p-5">
+       
+          <div class="py-5">  
+           
+            <div class="flex flex-col md:flex-row  items-center">
+              <img class="lg:w-1/3 md:w-1/2" src="img/sukufarms.png" alt="">
+          
+             <div class="lg:w-2/3 md:w-1/2 flex flex-col justify-between h-full px-8">
+              <h4 class="font-bold font-poppins text-white text-left text-3xl" >SukuFarms</h4>
+              <h6 class=" text-xs text-left uppercase text-gray-400">INFORMATION TECHNOLOGY IN AGRICULTURE</h6>
+              <p class=" text-white font-poppins text-sm text-left  py-5">
+                SUKU Technologies created SukuFarms as a social enterprise that exists to eradicate poverty by enriching and deepening the inclusion of Information technology in the agricultural value chain using an application; mobile phone and web based; known as SukuFarms developed to work with individual farmers or cooperations with multiple farmers. It enables small holder farmers to move from traditional farming to market-oriented farming by accessing modern best practices, real time information on weather patterns and policies that are likely to affect their farm yields and easy access to market places thus easing value chain transactions.
+                <br>
+                <br>
+                <a  href="https://eduboostgh.com/"> <button class=" rounded-md px-7 py-2 hover:bg-sky-400 hover:shadow-black backdrop-blur-md bg-sky-500 hover:shadow transition ease-out duration-10">
+                  <span class=" text-white text-lg font-bold">View</span>
+                </button></a>
+              </p>
+            </div>
+        </div>
+        </div>
+         </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Initiatives Section  -->
+
+
+
+ <!-- Footer Section -->
+<footer class=" text-slate-300 rounded-t-lg bg-customBlue pt-20 pb-10 lg:pt-[120px] lg:pb-20">
+  <div class="container mx-auto">
+    <div class=" flex flex-wrap justify-center">
+      <div class="w-full px-20 lg:px-4 sm:w-2/3 lg:w-1/4">
+        <div class="mb-10 w-full">
+          <a href="index.html" class="mb-6 inline-block max-w-[160px]">
+            <img
+              src="img/logo_foot.png"
+              alt="logo"
+              class="max-w-full"
+            />
+          </a>
+          <p class="text-body-color mb-7 text-base font-semibold">
+            Global technology solutions and consulting helping clients meet business goals through expertise in platforms and technical solutions.
+            <div class="flex justify-start space-x-4  text-2xl">
               <a href="https://www.facebook.com/sukutechnologies/" target="_blank" class="fa-brands fa-facebook hover:text-blue-500 transition ease-in duration-150"></a>
               <a href="https://twitter.com/sukutech_" target="_blank" class="fa-brands fa-twitter hover:text-blue-400 transition ease-in duration-150"></a>
               <a href="https://www.linkedin.com/company/suku-technologies/" target="_blank" class="fa-brands fa-linkedin hover:text-blue-700 transition ease-in duration-150"></a>
               <a href="https://www.instagram.com/sukutechnologies_" target="_blank" class="fa-brands fa-instagram hover:text-pink-600 transition ease-in duration-150"></a>
-            </div>
+              
+        </div>
+        <p class="text-dark flex items-center text-sm pt-5 font-medium hover:text-white transition ease-in duration-150">
+          <i class="fa-solid fa-phone mr-3"> </i>
+          <a href="tel:+ 233 242 564 188"> Call us at +233 242 564 188</a>
+      </p>
+        </div>
+      </div>
+      <div class="w-full px-20 lg:px-4 sm:w-1/2 lg:w-2/12">
+        <!-- Solutions section -->
+<div class="mb-10 w-full">
+  <h4 class="text-dark mb-9 text-lg font-semibold text-white">Solutions</h4>
+  <ul>
+    <li>
+      <a
+       href="software.html" 
+        class="hover:text-white transition ease-in duration-150 cursor-pointer mb-2 inline-block text-base leading-loose"
+      >
+        Software Solutions
+      </a>
+    </li>
+    <li>
+      <a
+       href="network.html" 
+        class="hover:text-white transition ease-in duration-150 cursor-pointer mb-2 inline-block text-base leading-loose"
+      >
+        Network Engineering
+      </a>
+    </li>
+    <li>
+      <a
+       href="web.html" 
+        class="hover:text-white transition ease-in duration-150 cursor-pointer mb-2 inline-block text-base leading-loose"
+      >
+        Web and DIgital Solutions
+      </a>
+    </li>
+    <li>
+      <a
+      href="consulting.html" 
+        class=" hover:text-white transition ease-in duration-150 cursor-pointer mb-2 inline-block text-base leading-loose"
+      >
+        Management Consulting
+      </a>
+    </li>
+  </ul>
+</div>
+      </div>
+      <div class="w-full px-20 lg:px-4 sm:w-1/2 lg:w-2/12">
+        <!-- Our Firm section -->
+        <div class="mb-10 w-full">
+          <h4 class="text-dark mb-9 text-lg font-semibold text-white">Our Firm</h4>
+          <ul>
+            <li>
+              <a
+               href="about.html" 
+                class="hover:text-white transition ease-in duration-150 cursor-pointer mb-2 inline-block text-base leading-loose"
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+               href="initiatives.html" 
+                class="hover:text-white transition ease-in duration-150 cursor-pointer mb-2 inline-block text-base leading-loose"
+              >
+                Initiatives
+              </a>
+            </li>
+            <li>
+              <a
+               href="careers.html" 
+                class="hover:text-white transition ease-in duration-150 cursor-pointer mb-2 inline-block text-base leading-loose"
+              >
+                Careers
+              </a>
+            </li>
+            <li>
+              <a
+               href="contact.html" 
+                class="hover:text-white transition ease-in duration-150 cursor-pointer mb-2 inline-block text-base leading-loose"
+              >
+                Contact us
+              </a>
             </li>
           </ul>
-        </div>
-      </div>
-  <!-- Footer Section -->
-<footer class=" text-slate-300 bg-customBlue pt-20 pb-10 lg:pt-[120px] lg:pb-20">
-    <div class="container mx-auto">
-      <div class=" flex flex-wrap">
-        <div class="w-full px-20 lg:px-4 sm:w-2/3 lg:w-1/4">
-          <div class="mb-10 w-full">
-            <a href="index.html" class="mb-6 inline-block max-w-[160px]">
-              <img
-                src="img/logo_foot.png"
-                alt="logo"
-                class="max-w-full"
-              />
-            </a>
-            <p class="text-body-color mb-7 text-base">
-              Global technology solutions and consulting helping clients meet business goals through expertise in platforms and technical solutions.
         
-          </div>
-        </div>
-        <div class="w-full px-20 lg:px-4 sm:w-1/2 lg:w-2/12">
-          <!-- Solutions section -->
-  <div class="mb-10 w-full">
-    <h4 class="text-dark mb-9 text-lg font-semibold">Solutions</h4>
-    <ul>
-      <li>
-        <a
-         href="software.html" 
-          class="hover:text-white transition ease-in duration-150 cursor-pointer mb-2 inline-block text-base leading-loose"
-        >
-          Software Solutions
-        </a>
-      </li>
-      <li>
-        <a
-         href="network.html" 
-          class="hover:text-white transition ease-in duration-150 cursor-pointer mb-2 inline-block text-base leading-loose"
-        >
-          Network Engineering
-        </a>
-      </li>
-      <li>
-        <a
-         href="web.html" 
-          class="hover:text-white transition ease-in duration-150 cursor-pointer mb-2 inline-block text-base leading-loose"
-        >
-          Web and DIgital Solutions
-        </a>
-      </li>
-      <li>
-        <a
-        href="consulting.html" 
-          class=" hover:text-white transition ease-in duration-150 cursor-pointer mb-2 inline-block text-base leading-loose"
-        >
-          Management Consulting
-        </a>
-      </li>
-    </ul>
-  </div>
-        </div>
-        <div class="w-full px-20 lg:px-4 sm:w-1/2 lg:w-2/12">
-          <!-- Our Firm section -->
-          <div class="mb-10 w-full">
-            <h4 class="text-dark mb-9 text-lg font-semibold">Our Firm</h4>
-            <ul>
-              <li>
-                <a
-                 href="about.html" 
-                  class="hover:text-white transition ease-in duration-150 cursor-pointer mb-2 inline-block text-base leading-loose"
-                >
-                  About
-                </a>
-              </li>
-              <li>
-                <a
-                 href="initiatives.html" 
-                  class="hover:text-white transition ease-in duration-150 cursor-pointer mb-2 inline-block text-base leading-loose"
-                >
-                  Initiatives
-                </a>
-              </li>
-              <li>
-                <a
-                 href="careers.html" 
-                  class="hover:text-white transition ease-in duration-150 cursor-pointer mb-2 inline-block text-base leading-loose"
-                >
-                  Careers
-                </a>
-              </li>
-            </ul>
-            <p class="text-dark flex items-center text-sm font-medium hover:text-white transition ease-in duration-150">
-              <i class="fa-solid fa-phone mr-3"> </i>
-              <a href="tel:+ 233 242 564 188"> Call us at +233 242 564 188</a>
-          </p>
-          <div class="flex justify-start space-x-4  text-2xl pt-5">
-            <a href="https://www.facebook.com/sukutechnologies/" target="_blank" class="fa-brands fa-facebook hover:text-blue-500 transition ease-in duration-150"></a>
-            <a href="https://twitter.com/sukutech_" target="_blank" class="fa-brands fa-twitter hover:text-blue-400 transition ease-in duration-150"></a>
-            <a href="https://www.linkedin.com/company/suku-technologies/" target="_blank" class="fa-brands fa-linkedin hover:text-blue-700 transition ease-in duration-150"></a>
-            <a href="https://www.instagram.com/sukutechnologies_" target="_blank" class="fa-brands fa-instagram hover:text-pink-600 transition ease-in duration-150"></a>
-      </div>
-          </div>
-        </div>
-        <div class="w-full px-20 lg:px-4 sm:w-full lg:w-1/4">
-          <!-- Blog -->
-          <div class="mb-10 w-full">
-            <h4 class="text-dark mb-9 text-lg font-semibold">Latest Blog Posts</h4>
-            <div class="flex-col divide-y divide-slate-700">
-              <a href="#" class="flex w-full p-4 rounded-md hover:bg-slate-500/20 transition ease-in duration-150">
-                <img src="img/blog.jpg" class="h-16 rounded-md" alt="">
-                <p class="pl-3">What Is Data Analytics? Your Guide to data Analysis</p>
-              </a>
-              <a href="#" class="flex w-full p-4 rounded-md hover:bg-slate-500/20 transition ease-in duration-150">
-                <img src="img/blog-2.jpg" class="h-16 rounded-md" alt="">
-                <p class="pl-3">Enhanced Security Advisory
-                  for Developers</p>
-              </a>
-            </div>
-          </div>
-        </div>
-    </div>
-    <div  class="lg:flex justify-center items-center w-full p-5 ">
-      <p class="p-5 text-gray-300"><span class="font-bold">Stay in the know!</span> <br> Subscribe to our newsletter to recieve exclusive updates.</p>
-          <form class="m-4 flex text-black">
-            <input class="rounded-l-lg p-4 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white" placeholder="your@mail.com"/>
-          <button class="rounded-r-lg font-bold p-4  bg-slate-700 hover:bg-slate-500 text-white  uppercase  border-t border-b border-r">Subscribe</button>
-        </form>
-      </div>
-  <hr>
-  <p class="text-center pt-14">SUKU Technologies &copy;  2023 - All Rights Reserved</p>
-  </footer>
-  <!-- Footer end -->
-  
-     <script>
-      (function () {
-        const header = document.querySelector('.header');
-        const icon = document.querySelector('.icon-container');
-    
-        icon.onclick = function () {
-          header.classList.toggle('menu-open');
-         };
-      })();
       
-    </script>
-    
-    
-    
-    </body>
-  </html>
+        </div>
+      </div>
+      <div class="w-full px-20 lg:px-4 sm:w-full lg:w-1/4">
+        <!-- Blog -->
+        <div class="mb-10 w-full">
+          <h4 class="text-dark mb-9 text-lg font-semibold text-white">Latest Blog Posts</h4>
+          <div class="flex-col divide-y divide-slate-700">
+            <a href="#" class="flex w-full p-4 rounded-md hover:bg-slate-500/20 transition ease-in duration-150">
+              <img src="img/blog.jpg" class="h-16 rounded-md" alt="">
+              <p class="pl-3">What Is Data Analytics? Your Guide to data Analysis</p>
+            </a>
+            <a href="#" class="flex w-full p-4 rounded-md hover:bg-slate-500/20 transition ease-in duration-150">
+              <img src="img/blog-2.jpg" class="h-16 rounded-md" alt="">
+              <p class="pl-3">Enhanced Security Advisory
+                for Developers</p>
+            </a>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div  class="lg:flex justify-center items-center w-full p-5 ">
+    <p class="p-5 text-gray-300"><span class="font-bold">Stay in the know!</span> <br> Subscribe to our newsletter to recieve exclusive updates.</p>
+        <form class="m-4 flex text-black">
+          <input class="rounded-l-lg p-4 border-t mr-0 border-b border-l text-gray-800 border-gray-200 bg-white" placeholder="your@mail.com"/>
+        <button class="rounded-r-lg font-bold p-4  bg-slate-700 hover:bg-slate-500 text-white  uppercase  border-t border-b border-r">Subscribe</button>
+      </form>
+    </div>
+<hr>
+<p class="text-center pt-14">SUKU Technologies &copy;  2023 - All Rights Reserved</p>
+</footer>
+<!-- Footer end -->
+
+<script src="app.js">
+</script>
+
+<script src="https://chatbolt.ai/widget/7fe75513-e74e-43ac-9267-3c7b0bf55cd6.js"></script>
+
+  
+  
+  
+  </body>
+</html>
